@@ -1,15 +1,26 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 #header {
     position: fixed;
     top: 0;
     width: 100%;
 
 }
-
+.NavText {
+    position: relative;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 90%;
+    color: #807971;
+}
 #googleLogo {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 90px;
     margin: 0 auto;
     margin-top: 200px;
+    text-align: center;
 }
 
 #footer {
@@ -18,3 +29,12 @@
     width: 100%;
 }
 
+#searchBar{
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    text-align: center;  
+}
+
+#searchBarInput {
+}
